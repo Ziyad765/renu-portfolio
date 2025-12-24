@@ -1,6 +1,6 @@
 import React from 'react';
 import { RESUME_DATA } from '../constants';
-import { ExternalLink, Layers, Lock, Brain, Glasses, ArrowRight } from 'lucide-react';
+import { Layers, Lock, Brain, Glasses, ArrowRight } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const getIcon = (category: string) => {
